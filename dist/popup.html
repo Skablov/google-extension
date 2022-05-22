@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Crypto Tool</h3>
+  </head>
+  <body>
+    <div>
+        <h2>Generating Public Key</h2>
+        <button id="generatePk">Generate public key</button><br>
+        <label>Your generate key: </label>
+        <label id="publicKey"></label> <br>
+        <label>--------------------------------------------</label><br>
+        <h2>Sets Public Key from your Friend</h2>
+        <label>Enter retrieved public key for setting secret key for u</label><br>
+        <input type="text" id="friendPk" placeholder="public key your friend">
+        <button id="generateSecretKey">Set</button><br>
+        <label>--------------------------------------------</label><br>
+        <h2>Encrypt message</h2>
+        <label>Enter your message: </label>
+        <input type="text" id="msg" placeholder="enter message for encrypt">
+        <button id="encryptMessage">Encrypt</button><br>
+        <label >Encrypt message = </label><label id="encryptedMsg"></label><br>
+        <label>--------------------------------------------</label><br>
+        <h2>Decrypt message</h2>
+        <label>Enter encrypted message: </label>
+        <input type="text" id="decryptMsg" placeholder="enter message for decrypt">
+        <button id="decryptMessage">Decrypt</button><br>
+        <label >Message = </label><label id="decryptedMsg"></label>
+    </div>
+  </body>
+  <!-- <script src="2.js"></script> -->
+  <script src="2.js"></script>
+</html>
